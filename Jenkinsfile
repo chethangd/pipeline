@@ -31,7 +31,7 @@ stages
 						else
 							echo -e "**************** ERROR *********************\n"
 							echo "Build failure - No executable file generated"
-							echo -e "********************************************\n"
+							echo -e "*********************************************\n"
 							exit 1
 						fi    
 
