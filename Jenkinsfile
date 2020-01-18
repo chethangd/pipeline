@@ -60,7 +60,7 @@ stages
 					  echo "       	ARTIFACTORY_PATH: /home/ec2-user/builds/$file"
 				  fi
 				else  
-					  echo -e "**************** ERROR *********************\n"
+					  echo -e "***************** ERROR *********************\n"
 					  echo "Deployment failure - ABC.exe cannot be executed "
 					  echo -e "********************************************\n"
 					  exit 1
