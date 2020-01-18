@@ -8,7 +8,7 @@ stages
 				sh '''
 						set +x
 						cd c_programs
-						echo -e "\n\n****************************** This is a Build JOB **************************** "
+						echo -e "\n\n******************************* This is a Build JOB **************************** "
 
 						if [[ -x "ABC.exe" ]]; then
 							echo "STEP 1:	Cleaning existing builds ........"
